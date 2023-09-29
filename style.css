@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/bgHome.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.maincon{
+    color:rgb(0, 0, 0,0.664);
+    position:absolute;
+    margin-top:20%;
+    margin-left: 8%;
+    font-family: 'Croissant One','sans-serif';
+    font-size: 2rem;
+}
+
+.headernav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 1.3rem 10%;
+    background: rgba(0,0,0,.1);
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logonav{
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 1.5rem;
+    transition: .5s;
+}
+.navbar a:hover{
+    color:crimson;
+    font-size: l20px;
+    font-style: italic;
+    border: 2px solid rgba(0,0,0,.1);
+    background: rgba(0,0,0,.1);
+    backdrop-filter: blur(25px);
+    border-radius: 50px;
+    padding:5px 15px 5px 15px;
+}
+/*.navbar a{
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+}
+*/
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:150px;
+}
+button:hover{
+    color:black;
+    background-color: rgba(0,0,0,.1);
+    backdrop-filter: blur(25px);
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    border: 2px solid rgba(0,0,0,.1);
+    padding: 5px 100px 5px 100px;
+}
+button{
+    padding: 10px 100px 10px 100px;
+    border-radius: 50px;
+    background: rgba(0,0,0,.1);
+    backdrop-filter: blur(50px);
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-top: 25%;
+}
+
+@media screen and (max-width:877px){
+    .maincon{
+        margin-top: 25%;
+    }
+    .btn{
+        display:none;
+    }
+    .headernav{
+        padding: 5%;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:694px){
+    .maincon{
+        margin-top: 30%;
+    }
+    .btn{
+        display:none;
+    }
+    .headernav{
+        padding: 2%;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:464px){
+    .maincon{
+        margin-top: 50%;
+    }
+    .btn{
+        display:none;
+    }
+    .headernav{
+        padding: 2%;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:247px){
+    .maincon{
+        margin-top: 50%;
+    }
+    .btn{
+        display:none;
+    }
+    .headernav{
+        padding: 2%;
+        font-size: 1rem;
+    }
+}
