@@ -7,7 +7,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-image: url(./bgHome.jpg);
+    background-image: url(bgHome.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
